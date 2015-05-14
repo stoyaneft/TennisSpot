@@ -1,0 +1,29 @@
+extends layout
+
+block nav
+    ul.nav.nav-pills.nav-stacked
+        li.active
+            a(href='/')
+                | News
+        li
+            a(href='/tournaments.html')
+                | Tournaments
+        li
+            a(href='/rankings.html')
+                | Rankings
+
+block content
+    each post, id in posts
+        .row
+            ul.media-list
+                li.media
+                    div.media-left
+                        a(href="/"+id+".html")
+                            img(src='/img/' + id + '.jpg').media-object
+                    div.media-body
+                        h4.media-heading
+                            p
+                                =post.title
+                        p
+                            =post.description
+

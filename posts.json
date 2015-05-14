@@ -1,0 +1,14 @@
+{
+    "post1" : {
+        "img": "/img/post1.jpg",
+        "title": "Roger Federer leads new Event",
+        "description": "Roger Federer leads the inaugural TEB BNP Paribas Istanbul Open, which also features Grigor Dimitrov.",
+        "text": "Istanbul Stages First Turkish ATP World Tour Event. The first ever ATP World Tour event in Turkey will be played on clay from 27 April - 3 May in 2015. The TEB BNP Paribas Istanbul Open will be held at the spectacular Koza World of Sports facility, which is promoted as the largest tennis academy in the world. The centre court features a retractable roof and will provide seating for 7,500 people. Two other clay show courts raise available seating to 9,500 and the clubhouse features a fitness centre, spa, swimming pool and restaurant. "
+    },
+    "post2" : {
+        "img": "/img/post2.jpg",
+        "title": "Murray Returns To Action",
+        "description": "Two weeks after getting married, Andy Murray is set to make his debut at the BMW Open by FWU AG.",
+        "text": "A Picturesque Setting For Germany’s First Tour Stop The BMW Open by FWU AG is the first of five German tournaments on the 2014 ATP World Tour calendar, contested in Bavaria’s picturesque capital city of Munich. The International Tennis Championships of Bavaria was first held in 1900, but the BMW Open by FWU AG was first staged at Munich’s Iphitos Tennis Club in 1974. Germans have won the title six times since then, most recently Tommy Haas in 2013, when the tournament had its first all-German final since 1965."
+    }
+}

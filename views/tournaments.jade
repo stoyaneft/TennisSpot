@@ -1,0 +1,42 @@
+extends layout
+
+block nav
+    ul.nav.nav-pills.nav-stacked
+        li
+            a(href='/')
+                | News
+        li.active
+            a(href='/tournaments.html')
+                | Tournaments
+        li
+            a(href='/rankings.html')
+                | Rankings
+
+block content
+
+    .row
+        h1
+            | Upcoming Tournaments
+
+    .row
+        .col-xs-12.col-sm-4.col-md-3
+            .thumbnail
+                img(src="img/istanbul.jpg")
+                .caption
+                    h3 TEB BNP Paribas Istanbul Open
+                    p
+                        | Category: ATP World Tour 250
+                        | Place: Istanbul, Turkey
+                        | Date: 27.04.2015-03.05.2015
+                        | Draw Size: S-28 D-16
+                        | Surface: Clay
+                        | Prize Money: € 439,405
+                    a(href="http://www.istanbulopen.org/").btn.btn-primary Visit Official Site
+
+        .col-xs-12.col-sm-4.col-md-3
+            .thumbnail
+                img(src="img/barcelona.jpg")
+                .caption
+                    h3 Barcelona Open Banc Sabadell
+                    p Category: ATP World Tour 500 Place: Barcelona, Spain Date: 20.04.2015-26.04.2015 Draw Size: S-48 D-16 Surface: Clay Prize Money: € 1,993,230
+                    a(href="http://www.barcelonaopenbancsabadell.com/es").btn.btn-primary Visit Official Site

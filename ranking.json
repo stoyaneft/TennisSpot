@@ -1,0 +1,12 @@
+{
+    "1": {"rank": 1, "name": "Novak Djokovich", "nationality": "Serbia", "points": 13845},
+    "2": {"rank": 2, "name": "Roger Federer", "nationality": "Switezerland", "points": 8385},
+    "3": {"rank": 3, "name": "Andy Murray", "nationality": "Great Britain", "points": 6060},
+    "4": {"rank": 4, "name": "Rafael Nadal", "nationality": "Spain", "points": 5435},
+    "5": {"rank": 5, "name": "Kei Nishikori", "nationality": "Japan", "points": 5280},
+    "6": {"rank": 6, "name": "Milos Raonic", "nationality": "Canada", "points": 5070},
+    "7": {"rank": 7, "name": "Tomas Berdych", "nationality": "Chech Republic", "points": 4960},
+    "8": {"rank": 8, "name": "David Ferrer", "nationality": "Spain", "points": 4490},
+    "9": {"rank": 9, "name": "Marin Cilic", "nationality": "Croatia", "points": 3495},
+    "10": {"rank": 10, "name": "Stanislas Wawrinka", "nationality": "Switzerland", "points": 3495}
+}

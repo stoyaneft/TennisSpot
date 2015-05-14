@@ -1,0 +1,27 @@
+doctype html
+
+html(lang="en")
+
+    head
+        title Tennis Spot
+        link(rel="stylesheet",type="text/css",href="lib/bootstrap/dist/css/bootstrap.css")
+
+
+    body
+        header
+            .navbar.navbar-default
+                .container-fluid
+                    .navbar-header
+                        a.navbar-brand(href="/")
+                            | Tennis Spot
+
+        section
+            .container-fluid
+                .row
+                    .col-xs-3
+                        block nav
+
+                    .col-xs-9
+                        block content
+
+        script(type="text/javascript", src="lib/jquery/dist/jquery.min.js")

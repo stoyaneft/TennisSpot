@@ -1,0 +1,31 @@
+extends layout
+
+block nav
+    ul.nav.nav-pills.nav-stacked
+        li
+            a(href='/')
+                | News
+        li
+            a(href='/tournaments.html')
+                | Tournaments
+        li.active
+            a(href='/rankings.html')
+                | Rankings
+
+block content
+    .row
+        h1 Top 10 Rankings
+    .row
+        table.table.table-striped.table-hover
+            tr
+                td Rank
+                td Name
+                td Nationality
+                td Points
+            each rank in rankings
+                tr
+                    td= rank.rank
+                    td= rank.name
+                    td= rank.nationality
+                    td= rank.points
+
