@@ -1,0 +1,50 @@
+h2 Tournaments
+
+.row
+    .col-sm-4
+        form.well#tournaments-form
+            .form-group
+                label Name
+                input.form-control(name="name",type="text")
+            .form-group
+                label Category
+                input.form-control(name="category",type="text")
+            .form-group
+                label Place
+                textarea.form-control(name="place")
+            .form-group
+                label Date
+                textarea.form-control(name="date")
+            .form-group
+                label Image
+                textarea.form-control(name="image")
+            .form-group
+                label Surface
+                textarea.form-control(name="surface")
+            .form-group
+                label Prize Money
+                textarea.form-control(name="prize money")
+            input(type="hidden",name="_id",value="")
+            button.btn.btn-primary(type="submit") Save
+            button.btn.btn-default.action-reset(type="button") Reset
+
+    .col-sm-8
+        table.table
+            thead: tr
+                th Name
+                th Place
+                th Image
+                th Surface
+                th Prize Money
+            tbody
+                each item in tournaments
+                    tr
+                        td= item.name
+                        td= item.place
+                        td= item.image
+                        td= item.surface
+                        td= item['prize money']
+                        td
+                            a.btn.btn-primary.action-edit(data-id=item._id) edit
+                            | &nbsp;
+                            a.btn.btn-danger.action-delete(data-id=item._id) delete

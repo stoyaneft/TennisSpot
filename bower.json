@@ -15,6 +15,11 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.4"
+    "bootstrap": "~3.3.4",
+    "q": "1.x",
+    "font-awesome": "~4.3.0",
+    "jade": "~1.9.2",
+    "moment": "~2.10.3",
+    "fontawesome": "~4.3.0"
   }
 }

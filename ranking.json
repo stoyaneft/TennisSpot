@@ -7,55 +7,55 @@
   },
   {
     "rank": "2",
-    "points": "8645",
+    "points": "9235",
     "name": "Roger Federer",
     "nationality": "SUI"
   },
   {
     "rank": "3",
-    "points": "7130",
+    "points": "7040",
     "name": "Andy Murray",
     "nationality": "GBR"
   },
   {
     "rank": "4",
-    "points": "5160",
-    "name": "Milos Raonic",
-    "nationality": "CAN"
-  },
-  {
-    "rank": "5",
-    "points": "5140",
+    "points": "5230",
     "name": "Tomas Berdych",
     "nationality": "CZE"
   },
   {
-    "rank": "6",
-    "points": "5040",
+    "rank": "5",
+    "points": "5220",
     "name": "Kei Nishikori",
     "nationality": "JPN"
   },
   {
+    "rank": "6",
+    "points": "4800",
+    "name": "Milos Raonic",
+    "nationality": "CAN"
+  },
+  {
     "rank": "7",
-    "points": "4990",
+    "points": "4570",
     "name": "Rafael Nadal",
     "nationality": "ESP"
   },
   {
     "rank": "8",
-    "points": "4310",
+    "points": "4490",
     "name": "David Ferrer",
     "nationality": "ESP"
   },
   {
     "rank": "9",
-    "points": "3575",
+    "points": "3845",
     "name": "Stan Wawrinka",
     "nationality": "SUI"
   },
   {
     "rank": "10",
-    "points": "3360",
+    "points": "3370",
     "name": "Marin Cilic",
     "nationality": "CRO"
   }

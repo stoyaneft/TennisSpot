@@ -1,0 +1,50 @@
+{
+    "collections" : {
+        "news": {
+            "model": "News",
+            "schema": {
+                "image" : "String",
+                "title" : "String",
+                "description" : "String",
+                "text" : "String"
+            }
+        },
+        "tournaments": {
+            "model": "Tournament",
+            "schema": {
+                "name" : "String",
+                "category" : "String",
+                "place" : "String",
+                "date" : "Date",
+                "image" : "String",
+                "surface" : "String",
+                "prize money" : "String"
+            }
+        },
+        "rankings": {
+            "model": "Ranking",
+            "schema": {
+                "name": "String",
+                "rank": "Number",
+                "nationality": "String",
+                "points": "Number"
+            }
+        }
+    },
+    "routes": {
+        "api" : {
+            "_meta": {
+                "virtual": true,
+                "crud": true,
+                "contentType": "json"
+            },
+            "news": {
+            },
+            "tournaments": {
+            },
+            "rankings": {
+
+            }
+        }
+    }
+}

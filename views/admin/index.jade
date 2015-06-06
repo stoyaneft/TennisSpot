@@ -1,0 +1,60 @@
+html
+    head
+        title TennisSpot Admin
+        link(rel="stylesheet",type="text/css",href="/lib/bootstrap/dist/css/bootstrap.css")
+        link(rel="stylesheet",type="text/css",href="/lib/fontawesome/css/font-awesome.css")
+        style.
+            body {
+                margin-top: 100px;
+            }
+    body
+
+        nav.navbar.navbar-default.navbar-fixed-top
+            .container-fluid
+                .navbar-header
+                    button.navbar-toggle.collapsed(data-toggle="collapse",data-target="#my-menu")
+                        i.fa.fa-bars
+                    a(href="/").navbar-brand TennisSpot Admin
+
+                .collapse.navbar-collapse#my-menu
+                    ul.nav.navbar-nav.navbar-left
+                        li: a(href="#/") News
+                        li: a(href="#/tournaments") Tournaments
+                        li: a(href="#/rankings") Rankings
+        .container
+            h3 TennisSpot Admin
+
+            #content
+
+        //- dependencies
+        script(src="/lib/jquery/dist/jquery.js")
+        script(src="/lib/q/q.js")
+        script(src="/lib/bootstrap/dist/js/bootstrap.js")
+        script(src="/lib/jade/jade.js")
+        script(src="/lib/moment/moment.js")
+        //- tools
+        script(src="/js/tools/resource.js")
+        script(src="/js/tools/helpers.js")
+        script(src="/js/tools/router.js")
+        //- app
+        script(src="/js/controllers/admin/news.js")
+        script(src="/js/controllers/admin/tournaments.js")
+
+        script.
+            $(document).ready(function(){
+                //app.init();
+
+                Router.addRoute({
+                    url: "/news",
+                    callback: NewsCtrl.init,
+                    default: true
+                })
+
+                Router.addRoute({
+                    url: "/tournaments",
+                    callback: TournamentsCtrl.init
+                })
+                Router.init();
+                // queries
+
+            })

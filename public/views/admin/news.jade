@@ -1,0 +1,38 @@
+h2 News
+
+.row
+    .col-sm-4
+        form.well#news-form
+            .form-group
+                label Title
+                input.form-control(name="title",type="text")
+            .form-group
+                label Image
+                input.form-control(name="image",type="text")
+            .form-group
+                label Description
+                textarea.form-control(name="description")
+            .form-group
+                label Text
+                textarea.form-control(name="text")
+            input(type="hidden",name="_id",value="")
+            button.btn.btn-primary(type="submit") Save
+            button.btn.btn-default.action-reset(type="button") Reset
+
+    .col-sm-8
+        table.table
+            thead: tr
+                th Title
+                th Image
+                th Description
+                th Text
+            tbody
+                each item in news
+                    tr
+                        td= item.title
+                        td= item.image
+                        td= item.description
+                        td
+                            a.btn.btn-primary.action-edit(data-id=item._id) edit
+                            | &nbsp;
+                            a.btn.btn-danger.action-delete(data-id=item._id) delete
